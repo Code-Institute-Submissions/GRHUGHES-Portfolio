@@ -22,11 +22,11 @@ This is my portfolio website to present to potential employers and collaborators
 
 #### Colour Scheme
 
-- Three different shades of blue and mono colours. 
+- Three different shades of blue and mono colours.
 
 #### Typography
 
-- Roboto and Michroma are the main fonts used throughout the whole website with Sans Serif as the fallback font if for some reason the main fonts can't be imported into the site correctly. Roboto is a very popular in the developer world and is also very easy to read, so it is both attractive and appropriate.
+- Michroma and Roboto are the main fonts used throughout the whole website with Sans Serif as the fallback font if for some reason the main fonts can't be imported into the site correctly. Both of these fonts are very popular in the developer world and are also very easy to read, so they are both attractive and appropriate. Michroma is used for my headings and menus, and Roboto is used for the remaining content.
 
 #### Imagery
 
