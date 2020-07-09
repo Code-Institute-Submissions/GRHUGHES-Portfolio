@@ -19,25 +19,33 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+    />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>MS1 Project Portfolio | G.R. Hughes</title>
   </head>
   <body>
     <header class="container">
       <div class="row no-gutters banner">
-        <div class="col-md-4 text-center">
-          <a href="index.html" class="text-logo"
-            ><h1 id="name_logo">Gary R. Hughes</h1></a
-          >
+        <div class="col-md-6 text-center">
+          <a href="index.html" class="name-logo"><h1>Gary R. Hughes</h1></a>
           <hr />
           <h2 class="title">Front End Developer</h2>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
           <div class="row no-gutters">
             <div class="col">
               <nav class="navbar navbar-expand-md justify-content-center">
                 <button
-                  class="navbar-toggler ml-1"
+                  class="navbar-toggler second-button clearfix"
                   type="button"
                   data-toggle="collapse"
                   data-target="#navbarNavDropdown"
@@ -45,7 +53,9 @@
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"
+                    ><span></span><span></span><span></span><span></span
+                  ></span>
                 </button>
                 <div
                   class="collapse navbar-collapse justify-content-between align-items-center w-100"
@@ -53,22 +63,26 @@
                 >
                   <ul class="nav navbar-nav ml-auto text-center">
                     <li class="nav-item">
-                      <a class="nav-link active" href="index.html"
+                      <a
+                        class="nav-link nav-link-fade-up active"
+                        href="index.html"
                         ><span>Home</span></a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="resume.html"
+                      <a class="nav-link nav-link-fade-up" href="resume.html"
                         ><span>Resume</span></a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="projects.html"
+                      <a class="nav-link nav-link-fade-up" href="projects.html"
                         ><span>Projects</span></a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="collaboration.html"
+                      <a
+                        class="nav-link nav-link-fade-up"
+                        href="collaboration.html"
                         ><span>Collaboration</span></a
                       >
                     </li>
@@ -91,11 +105,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 section-column">
+        <div
+          class="col-lg-4 col-md-6 bg-color-personal-info section-column personal-info-section"
+        >
           <div class="row">
             <div class="col-12">
-              <h3 class="section-heading">Personal Info</h3>
+              <h3 class="section-heading personal-info-heading">
+                Personal Info
+              </h3>
             </div>
+          </div>
+          <div class="my-photo">
+            <img
+              src="assets/images/my_photo.jpeg"
+              class="img-fluid"
+              alt="Potrait photo of Gary Hughes"
+            />
           </div>
           <div class="personal-info-item">
             <div class="key">
@@ -146,98 +171,87 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 section-column">
+        <div class="col-lg-8 col-md-6 section-column about-me-section">
           <div class="row">
             <div class="col">
-              <h3 class="section-heading">About Me</h3>
+              <h3 class="section-heading about-me-heading">About Me</h3>
             </div>
           </div>
-          <div class="row">
-            <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
-              <div class="row">
-                <div class="col-2">
-                  <i
-                    class="about-me-icon fa fa-question-circle"
-                    aria-hidden="true"
-                  ></i>
-                </div>
-                <div class="col-10">
-                  <h4 class="section-sub-heading">What Can You Expect?</h4>
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-12 col-lg-6"
+              >
+                <div class="about-me-box">
+                  <div class="about-me-sub-heading">
+                    <h4>What Can You Expect?</h4>
+                    <i
+                      class="about-me-icon fa fa-question-circle d-none d-sm-block"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
                   <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum."
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
-              <div class="row">
-                <div class="col-2">
-                  <i
-                    class="about-me-icon fa fa-thumbs-up"
-                    aria-hidden="true"
-                  ></i>
-                </div>
-                <div class="col-10">
-                  <h4 class="section-sub-heading">How Do I Do It?</h4>
+              <div
+                class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-12 col-lg-6"
+              >
+                <div class="about-me-box">
+                  <div class="about-me-sub-heading">
+                    <h4>How Do I Do It?</h4>
+                    <i
+                      class="about-me-icon fa fa-thumbs-up d-none d-sm-block"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
                   <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum."
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
-              <div class="row">
-                <div class="col-2">
-                  <i
-                    class="about-me-icon fa fa-handshake-o"
-                    aria-hidden="true"
-                  ></i>
-                </div>
-                <div class="col-10">
-                  <h4 class="section-sub-heading">Why Hire Me?</h4>
+              <div
+                class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-12 col-lg-6"
+              >
+                <div class="about-me-box">
+                  <div class="about-me-sub-heading">
+                    <h4>Why Hire Me?</h4>
+                    <i
+                      class="about-me-icon fa fa-handshake-o d-none d-sm-block"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
                   <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum."
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
-              <div class="row">
-                <div class="col-2">
-                  <i class="about-me-icon fa fa-smile-o" aria-hidden="true"></i>
-                </div>
-                <div class="col-10">
-                  <h4 class="section-sub-heading">What Do I Do For Fun?</h4>
+              <div
+                class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-12 col-lg-6"
+              >
+                <div class="about-me-box">
+                  <div class="about-me-sub-heading">
+                    <h4>What Do I Do For Fun?</h4>
+                    <i
+                      class="about-me-icon fa fa-smile-o d-none d-sm-block"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
                   <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum."
                   </p>
                 </div>
               </div>
@@ -249,22 +263,22 @@
     <footer>
       <div class="row">
         <div class="col text-center">
-          Connect With Me
+          <h5 class="connect-title">Connect With Me</h5>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
-              <a target="_blank" href="#">
+              <a target="_blank" href="https://www.linkedin.com/">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 <span class="sr-only">LinkedIn</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a target="_blank" href="#">
+              <a target="_blank" href="https://github.com/">
                 <i class="fa fa-github" aria-hidden="true"></i>
                 <span class="sr-only">GitHub</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a target="_blank" href="#">
+              <a target="_blank" href="https://www.meetup.com/">
                 <i class="fa fa-meetup" aria-hidden="true"></i>
                 <span class="sr-only">Meetup</span>
               </a>
@@ -288,5 +302,17 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function () {
+        $(".second-button").on("click", function () {
+          $(".navbar-toggler-icon").toggleClass("open");
+        });
+      });
+      //credit to https://codepen.io/imprfcto/pen/WNNpBLp for helping me close nav item when clicked on
+      // close hamburger menu after click a
+      $(".navbar-nav li a").on("click", function () {
+        $(".navbar-toggler-icon").click();
+      });
+    </script>
   </body>
 </html>

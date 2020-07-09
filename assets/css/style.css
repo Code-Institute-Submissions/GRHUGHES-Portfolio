@@ -1,44 +1,226 @@
-@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:100,200,300,400,500,600,700&display=swap");
-
 body {
   background-color: #000;
 }
 
-p {
+h1,
+h2 {
+  font-family: "Michroma", sans-serif;
   color: #fff;
+}
+
+hr {
+  border: 2px solid #ff6000;
+}
+
+a {
+  color: transparent;
 }
 
 .banner {
   align-items: center;
 }
 
-.row-table {
-  display: table;
+.name-logo {
+  text-decoration: none !important;
+}
+
+.title {
+}
+
+h4 {
+  color: #1e90ff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-family: "Michroma", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: #00bfff;
+  padding: 20px 0px;
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar-toggler {
+  border: 1px solid #00bfff;
+  padding-top: 0.5rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.navbar-toggler-icon {
+  margin-right: 120px;
+  display: block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  background-color: #00bfff;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background-color: #ff6000;
+}
+
+.nav-link-fade-up::before {
+  width: 100%;
+  bottom: 4px;
+  opacity: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.nav-link-fade-up:hover::before {
+  bottom: 10px;
+  opacity: 1;
+}
+
+ul.nav a:hover {
+  color: #ff6000 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1e90ff;
+}
+
+.navbar-toggler-icon span:nth-child(1) {
+  top: 0px;
+}
+.navbar-toggler-icon span:nth-child(2),
+.navbar-toggler-icon span:nth-child(3) {
+  top: 10px;
+}
+
+.navbar-toggler-icon span:nth-child(4) {
+  top: 20px;
+}
+
+.navbar-toggler-icon.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+.navbar-toggler-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.navbar-toggler-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.navbar-toggler-icon.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.bg-color-personal-info {
+  background-color: #fff;
 }
 
 .section-column {
   display: table-cell;
-  padding: 0 30px 30px;
   float: none;
 }
 
 .section-heading {
   font-family: "Michroma", sans-serif;
   margin-top: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
-.section-sub-heading {
-margin-bottom: 15px;
+.personal-info-section {
+}
+
+.personal-info-heading {
+  color: #1e90ff;
+}
+
+.my-photo {
+  border: 1px solid #000;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about-me-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.about-me-box {
+  background-color: #fff;
+  border: 4px solid #ff6000;
+  padding: 2%;
+  margin-top: 30px !important;
+}
+
+.about-me-heading {
+  color: #00bfff;
+  text-align: center;
+}
+
+.about-me-sub-heading {
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .about-me-icon {
-font-size: 26px;
-color: #ff6000;
+  color: #ff6000;
+  font-size: 26px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 footer {
   min-height: 120px;
+}
+
+.connect-title {
+  font-family: "Michroma", sans-serif;
+  color: #00bfff;
+  margin-top: 1.9rem;
 }
 
 .social-links {
@@ -46,12 +228,12 @@ footer {
 }
 
 .social-links li a i {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   padding: 12px 0;
   border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
+  font-size: 20px;
+  line-height: 12px;
   text-align: center;
   color: #fff;
   background: #ff6000;
@@ -59,6 +241,12 @@ footer {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 3.8rem;
+  margin-top: 1.9rem;
+  margin-bottom: 1.9rem;
 }
 
 .social-links li a i:hover {
