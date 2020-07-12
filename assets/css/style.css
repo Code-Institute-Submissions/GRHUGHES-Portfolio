@@ -2,6 +2,10 @@ body {
   background-color: #000;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 h1,
 h2 {
   font-family: "Michroma", sans-serif;
@@ -28,10 +32,12 @@ a {
 }
 
 h4 {
+  font-family: "Roboto", sans-serif;
   color: #1e90ff;
   margin-top: 16px;
   margin-bottom: 16px;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .nav-link {
@@ -177,6 +183,38 @@ ul.nav a:hover {
 
 .my-photo {
   border: 1px solid #000;
+  margin-bottom: 16px;
+}
+
+.personal-info-item {
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+  padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+  margin: 0;
+}
+
+.personal-info-item .key {
+  margin-bottom: 10px;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+.personal-info-item .key p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.personal-info-item .value {
+  position: relative;
 }
 
 .row {
@@ -190,13 +228,13 @@ ul.nav a:hover {
 }
 
 .about-me-box {
-  background-color: #fff;
+  background-color: #f8f9fa;
   border: 4px solid #ff6000;
   padding: 2%;
   margin-top: 30px !important;
 }
 
-.about-me-heading {
+.black-bg-h3 {
   color: #00bfff;
   text-align: center;
 }
@@ -213,6 +251,55 @@ ul.nav a:hover {
   margin-bottom: 16px;
 }
 
+.download-cv-icon {
+  width: 35px;
+  height: 35px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 12px;
+  text-align: center;
+  color: #fff;
+  background: #ff6000;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.skill-icon {
+    color: #ff6000;
+}
+
+.skill-cards {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.skill-card {
+  margin: 7.5% auto;
+  padding: 15px;
+  align-items: center;
+  z-index: 2;
+  display: block;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  border: 4px solid #ff6000;
+}
+
+.skill-logo {
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+a i:hover {
+    color: #ff6000;
+  background: #fff;
+}
+
 footer {
   min-height: 120px;
 }
@@ -225,6 +312,12 @@ footer {
 
 .social-links {
   padding-bottom: 15px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 3.8rem;
+  margin-top: 1.9rem;
+  margin-bottom: 1.9rem;
 }
 
 .social-links li a i {
@@ -241,12 +334,6 @@ footer {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
-}
-
-.list-inline-item:not(:last-child) {
-  margin-right: 3.8rem;
-  margin-top: 1.9rem;
-  margin-bottom: 1.9rem;
 }
 
 .social-links li a i:hover {
