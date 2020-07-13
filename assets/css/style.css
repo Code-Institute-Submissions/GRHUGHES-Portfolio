@@ -267,7 +267,7 @@ ul.nav a:hover {
   -o-transition: all 0.35s ease-in-out;
 }
 
-.skill-icon {
+.heading-icon {
     color: #ff6000;
 }
 
@@ -299,6 +299,53 @@ a i:hover {
     color: #ff6000;
   background: #fff;
 }
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fff;
+    border-left: 1px solid;
+}
+
+.timeline-item h4 {
+    text-align: left
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 16px;
+    height: 16px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -8px;
+    border-radius: 12px;
+    content: "";
+    background: #ff6000;
+}
+
+
 
 footer {
   min-height: 120px;
