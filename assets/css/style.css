@@ -359,6 +359,22 @@ a i:hover {
   border: 1px solid #000;
 }
 
+.form-control {
+  border: 2px solid #ff6000;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  color: #000;
+  background-color: #54bf30;
+  border-color: #54bf30;
+}
+
 footer {
   min-height: 120px;
 }
