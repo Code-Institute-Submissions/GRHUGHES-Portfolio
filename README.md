@@ -2,14 +2,22 @@
 
 # Gary Hughes Portfolio
 
+Milestone Project 1: User Centric Frontend Development - Code Institute
+
+![Responsive Demo]<img src="assets/images/grhughes_responsive_demo.png" style="margin: 0;">
+
 This is my portfolio website to present to potential employers and collaborators. It has been built with responsive design making it accessible and simple to navigate on a range of devices from mobile to desktop. On the homepage there is some general info about myself. My portfolio inlcudes a page with my resume where you can find out about my education, work history and skill set. You can find examples of my work on GitHub via a projects page and for those interested in collaboration, I can be contacted with any ideas you might have. Lastly, you can easily download a copy of my CV from my website.
+
+[View my project live, here](https://codeinstitute.net)
 
 ## UX (User Experience)
 
-    • Does this fit a users needs?
-    • Does the user like my website?
-    • Does the user like being at my website?
-    • Is this a website a user might want to return to in the future?
+- Does this fit my users needs?
+- Does the user like my website?
+- Does the user like being at my website?
+- Is this a website a user might want to return to in the future?
+
+These are all questions I asked myself throughout the UX process.
 
 ### User Stories
 
@@ -22,13 +30,15 @@ This is my portfolio website to present to potential employers and collaborators
 
 #### Colour Scheme
 
-- Three different shades of blue and mono colours.
+- Shades of blue are used for the navbar text, heading text and buttons. White boxes form the areas of content with primarily black text and sit on top a black background for the whole website. Bright orange provides the accent and outlines.
 
 #### Typography
 
-- Michroma and Roboto are the main fonts used throughout the whole website with Sans Serif as the fallback font if for some reason the main fonts can't be imported into the site correctly. Both of these fonts are very popular in the developer world and are also very easy to read, so they are both attractive and appropriate. Michroma is used for my headings and menus, and Roboto is used for the remaining content.
+- Michroma and Roboto are the main fonts used throughout the website, with Sans Serif as the fallback font if for some reason the main fonts can't be imported into the site correctly. Both of these fonts are very popular in the developer world and are also very easy to read, so they are both attractive and appropriate. Michroma is used for the larger headings and menus, and Roboto is used for the remaining text.
 
 #### Imagery
+
+- I decided to include large hero images which closely relate to the content of the page they occupy, whilst trying to fit my website's colour scheme. These combine with the fonts and colours to produce a modern and attractive looking design.
 
 ### Strategy
 
@@ -41,9 +51,23 @@ It's important to provide employers and recruiting agents with a brief overview 
 
 ### Structure
 
+My website consists of 4 pages all easily accessible from the navbar on larger screen sizes or toggler "_hamburger_" button on smaller screen sizes. All external links, including links to my projects and social media, open in separate tabs so the flow is not disturbed. On larger screen sizes the navigation stays fixed to the top of the page even during scrolling. All text and content has been positioned from left to right and top to bottom in terms of implortance. The title of the active page in the navigation appears a darker shade of blue than the inactive pages in a subtle way of letting the user know where they within the website. My name logo is positioned to the left of the navbar and when clicked on will return the user back to the homepage. Each page title when hovered over will appear highlighted and underlined in orange to visualise to the user that this is a "*clickable*" action.
+
+1. The Home / Landing page consists of a Hero image, a "Personal Info" section and an "About Me" section telling the user what they can expect from me, how I go about it, why they should hire me and what I do for fun.
+2. The Resume page consists of a Hero image, a button link to download my CV, my skill set relating to coding and separate timelines displaying my education / training and work history.
+3. The Projects page consists of a Hero image and a gallery of recent coding projects with links to the GitHub repositories.
+4. The Collaboration page consists of a Hero image and a contact form providing user interaction with myself.
+
 ### Skeleton
 
 #### Wireframes
+
+Listed below are the desktop and mobile wireframes for each page of my website, created with the Balsamiq Wireframes application. These were created to show the planned differences in appearance and navigation between large and small screen sizes, but please note that they do not reflect a 100% replicated end result of my website and were only used as an original concept design to get each pages layout started.
+
+1. Home Page Wireframes - [Click to View](https://github.com/Gazroh87/GRHUGHES-Portfolio/blob/master/wireframes/home_wireframe.png)
+2. Resume Page Wireframes - [Click to View](https://github.com/Gazroh87/GRHUGHES-Portfolio/blob/master/wireframes/resume_wireframe.png)
+3. Projects Page Wireframes - [Click to View](https://github.com/Gazroh87/GRHUGHES-Portfolio/blob/master/wireframes/projects_wireframe.png)
+4. Collaboration Page Wireframes - [Click to View](https://github.com/Gazroh87/GRHUGHES-Portfolio/blob/master/wireframes/collaboration_wireframe.png)
 
 ### Surface
 
