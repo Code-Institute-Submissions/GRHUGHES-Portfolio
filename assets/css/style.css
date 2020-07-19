@@ -57,7 +57,7 @@ a {
 
 .btn-primary {
   background-color: #1e63ff;
-  border-color: #1e63ff;
+  border-color: #000;
 }
 
 a i:hover {
@@ -411,7 +411,7 @@ button[type="submit"] {
 .btn-submit:hover {
   color: #000;
   background-color: #54bf30;
-  border-color: #54bf30;
+  border-color: #fff;
 }
 
 /*---------- Footer ----------*/
