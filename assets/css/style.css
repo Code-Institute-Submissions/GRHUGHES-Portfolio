@@ -5,6 +5,18 @@ body {
   padding-top: 130px;
 }
 
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 0.85rem;
+}
+
+h3 {
+  font-size: 0.8rem;
+}
+
 h1,
 h2 {
   font-family: "Michroma", sans-serif;
@@ -16,13 +28,14 @@ h4 {
   color: #1e63ff;
   margin-top: 16px;
   margin-bottom: 16px;
-  font-size: 1.2rem;
   text-align: center;
   font-weight: 600;
+  font-size: 0.75rem;
 }
 
 p {
   font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
 }
 
 hr {
@@ -446,11 +459,97 @@ footer {
 
 /*---------- Media Queries ----------*/
 
+@media (min-width: 544px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.85rem;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.85rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
 @media (min-width: 992px) {
   .center-form {
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
     max-width: 75%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }
