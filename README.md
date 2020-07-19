@@ -4,11 +4,11 @@
 
 Milestone Project 1: User Centric Frontend Development - Code Institute
 
-![Responsive Demo]<img src="assets/images/grhughes_responsive_demo.png" style="margin: 0;">
+<img src="assets/images/grhughes_responsive_demo.png" style="margin: 0;">
 
 This is my portfolio website to present to potential employers and collaborators. It has been built with responsive design making it accessible and simple to navigate on a range of devices from mobile to desktop. On the homepage there is some general info about myself. My portfolio inlcudes a page with my resume where you can find out about my education, work history and skill set. You can find examples of my work on GitHub via a projects page and for those interested in collaboration, I can be contacted with any ideas you might have. Lastly, you can easily download a copy of my CV from my website.
 
-[View my project live, here](https://codeinstitute.net)
+[View my project live, here](https://gazroh87.github.io/GRHUGHES-Portfolio/)
 
 ## UX (User Experience)
 
