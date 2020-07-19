@@ -51,7 +51,7 @@ It's important to provide employers and recruiting agents with a brief overview 
 
 ### Structure
 
-My website consists of 4 pages all easily accessible from the navbar on larger screen sizes or toggler "_hamburger_" button on smaller screen sizes. All external links, including links to my projects and social media, open in separate tabs so the flow is not disturbed. On larger screen sizes the navigation stays fixed to the top of the page even during scrolling. All text and content has been positioned from left to right and top to bottom in terms of implortance. The title of the active page in the navigation appears a darker shade of blue than the inactive pages in a subtle way of letting the user know where they within the website. My name logo is positioned to the left of the navbar and when clicked on will return the user back to the homepage. Each page title when hovered over will appear highlighted and underlined in orange to visualise to the user that this is a "*clickable*" action.
+My website consists of 4 pages all easily accessible from the navbar on larger screen sizes or toggler "_hamburger_" button on smaller screen sizes. All external links, including links to my projects and social media, open in separate tabs so the flow is not disturbed. On larger screen sizes the navigation stays fixed to the top of the page even during scrolling. All text and content has been positioned from left to right and top to bottom in terms of implortance. The title of the active page in the navigation appears a darker shade of blue than the inactive pages in a subtle way of letting the user know where they within the website. My name logo is positioned to the left of the navbar and when clicked on will return the user back to the homepage. Each page title when hovered over will appear highlighted and underlined in orange to visualise to the user that this is a "_clickable_" action.
 
 1. The Home / Landing page consists of a Hero image, a "Personal Info" section and an "About Me" section telling the user what they can expect from me, how I go about it, why they should hire me and what I do for fun.
 2. The Resume page consists of a Hero image, a button link to download my CV, my skill set relating to coding and separate timelines displaying my education / training and work history.
@@ -71,32 +71,86 @@ Listed below are the desktop and mobile wireframes for each page of my website, 
 
 ### Surface
 
+Predominantly mono colors were chosen for the backdrop with splashes of color giving an extra pop to create a modern and attractive look.
+
 ## Current Features
 
 - Responsive on all device sizes makes the website easily accessible and simple to navigate.
 - Interactive elements.
 
+2. Home Page - The Personal Info section provides the user with my contact information and you can see what I look like. The about me section includes three reasons why the user and I should work together and an extra box of text letting the user know a little bit about my personal lifestyle outside of work.
+3. Resume Page - The user can find a button to download my CV in pdf format, browse my skill set relating to web development with button links to find out more about each if they are unfamiliar. Further down the user can view timelines of my education/training and work history.
+4. Projects Page - The user can browse my recent projects with an overview image and button link to the GitHub repository for each project.
+5. Collaboration Page - The user with a collaboration idea can use the contact form, submitting their name, email address and message, with a button to request any interest or assistance.
+
 ### Features Left to Implement
+
+In future, I would like to expand the skill set section with newly aquired skills as I progress through my course and more projects I hope to work on to create a more comprehensive display of my work. I would also like to include more animation techniques with elements and use JavaScript.
 
 ## Technologies Used
 
 ### Languages Used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - The main language used to build the basic layout of each page.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - This language is used for styling and formatting the base HTML code to personalise my pages.
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap]
-2. []
-3. []
-4. []
-5. []
-6. []
-7. []
-8. []
-9. []
-10. []
+1. [Bootstrap 4.5.0 Framework](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+- The Bootstrap framework was used behind the existing HTML and CSS as the core structuring method of the website, using a grid system of rows and columns. This produces responsive and mobile-first design.
+
+2. [Hover.css 2.3.1](https://ianlunn.github.io/Hover/)
+
+- Hover.css was used on static icons throughout the website to add some animation to them while they are hovered over.
+
+3. [Google Fonts](https://fonts.google.com/)
+
+- Google Fonts were used to embed and link the 'Michroma' and 'Roboto' fonts into all html pages for use throughout the website.
+
+4. [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/)
+
+- Font Awesome was used to provide the icons within the footer of all pages and all other icons throughout the website for aesthetic and UX design purposes.
+
+5. [jQuery 3.5.1](https://jquery.com/)
+
+- jQuery comes as part of the Boostrap framework and was used to provide responsive expandable and collapsable functionality to the navbar.
+
+6. [Git](https://git-scm.com/) / [Gitpod](https://www.gitpod.io/)
+
+- Git was used for version control by utilizing the Gitpod terminal to commit files to Git and Push them to GitHub.
+
+7. [GitHub](https://github.com/Gazroh87/GRHUGHES-Portfolio)
+
+- GitHub is used to store the projects code within a repository including all previous versions or commits of the project after being pushed from Gitpod and is used to host the deployed website for public viewing.
+
+8. [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
+
+- Adobe Illustrator was used to create my logo at the top of this file and placed within the Hero image of my homepage, resizing and editing of photos for the website.
+
+9. [tiny png](https://tinypng.com/)
+
+- Tiny png was used to compress the images used throughtout the website to reduce data size, decreasing load times without sacrificing the integrity or quality of the original images.
+
+10. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+
+- The Chrome DevTools debugging program was used throughout the building of the website to quickly see any changes made to the website code visualised in a live browser tab. I'm able to test the responsiveness of all elements and CSS visual changes.
+
+11. [Balsamiq Wireframes 4.0.47](https://balsamiq.com/)
+
+- I downloaded and used the Balsamiq Wireframes desktop application to create all my [wireframes](https://github.com/Gazroh87/GRHUGHES-Portfolio/tree/master/wireframes) during the design process.
+
+12. [Shutterstock](https://www.shutterstock.com/home)
+
+- Shutterstock provides the stock hero imagery of my wesbite.
+
+13. [Am I Responsive Design?](http://ami.responsivedesign.is/)
+
+- The web application was used to generate screencaps of my lading page at different viewports and position them to form a static demo presentation of my website's responsiveness as can be seen towards the top of this file.
+
+14. [htmlcolorcodes.com built by Dixon & Moe](https://htmlcolorcodes.com/)
+
+- HTML color codes was used to choose my colour scheme and obtain the corresponding hex codes for each colour.
 
 ## Testing
 
