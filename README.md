@@ -10,6 +10,8 @@ This is my portfolio website to present to potential employers and collaborators
 
 [View my project live, here](https://gazroh87.github.io/GRHUGHES-Portfolio/)
 
+<hr>
+
 ## UX (User Experience)
 
 - Does this fit my users needs?
@@ -21,10 +23,10 @@ These are all questions I asked myself throughout the UX process.
 
 ### User Stories
 
-- As an employer, I want to see what Gary is capable of doing as software developer by seeing examples of his work, so that I have an idea if he is a good fit for my available position within our company.
-- As a software development collaborator, I want an easy and appropriate way of contacting Gary with my collaboration idea, so that we can work together on something.
-- As a software development student, I'm looking for design ideas and inspiration for my own project, so that I can do well in my course.
-- As a recruitment agent, I want to see a broader overview of Gary by seeing his full resume and I expect to be able to easily download a copy of his CV for my records, so that I can determine whether Gary can be shortlisted for any of the available positions I need to fill.
+1. As an employer, I want to see what Gary is capable of doing as software developer by seeing examples of his work, so that I have an idea if he is a good fit for my available position within our company.
+2. As a software development collaborator, I want an easy and appropriate way of contacting Gary with my collaboration idea, so that we can work together on something.
+3. As a software development student, I'm looking for design ideas and inspiration for my own project, so that I can do well in my course.
+4. As a recruitment agent, I want to see a broader overview of Gary by seeing his full resume and I expect to be able to easily download a copy of his CV for my records, so that I can determine whether Gary can be shortlisted for any of the available positions I need to fill.
 
 ### Design choices
 
@@ -73,6 +75,8 @@ Listed below are the desktop and mobile wireframes for each page of my website, 
 
 Predominantly mono colors were chosen for the backdrop with splashes of color giving an extra pop to create a modern and attractive look.
 
+<hr>
+
 ## Current Features
 
 - Responsive on all device sizes makes the website easily accessible and simple to navigate.
@@ -86,6 +90,8 @@ Predominantly mono colors were chosen for the backdrop with splashes of color gi
 ### Features Left to Implement
 
 In future, I would like to expand the skill set section with newly aquired skills as I progress through my course and more projects I hope to work on to create a more comprehensive display of my work. I would also like to include more animation techniques with elements and use JavaScript.
+
+<hr>
 
 ## Technologies Used
 
@@ -152,17 +158,93 @@ In future, I would like to expand the skill set section with newly aquired skill
 
 - HTML color codes was used to choose my colour scheme and obtain the corresponding hex codes for each colour.
 
+<hr>
+
 ## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of my project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_uri+with_options)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options) <img style="border:0;width:88px;height:31px"
+      src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+      alt="Valid CSS!" />
 
 ### User Story Testing
 
+1. As an employer, I want to see what Gary is capable of doing as software developer by seeing examples of his work, so that I have an idea if he is a good fit for my available position within our company.
+
+   1. Upon entering the website, the employer is greeted with a personal info section containing contact info and they can easily locate the navigation menu in the top right. Clicking or tapping on the 'Projects' link will take them to the Projects page.
+   2. In the Projects page, the user can see an image and brief decription of each project and each project has a clickable link to take the user to the GitHub repository or live website in a separate browser tab.
+
+2. As a software development collaborator, I want an easy and appropriate way of contacting Gary with my collaboration idea, so that we can work together on something.
+
+   1. Upon entering the website, the user can easily locate the navigation menu in the top right. Clicking or tapping on the 'Collaboration' link will take them to the Collaboration page.
+   2. In the Collaboration page, the user can fill out a simple contact form with their name, email address to be contacted back and a message with their collaboration idea.
+
+      - All fields of the contact form are required as indicated to the user by an asterisk at the end of each placeholder text.
+      - When the user tries to submit the contact form with any empty field, a message will pop up, telling the user to enter text into the required field(s).
+      - When the user tries to submit the contact form with an incorrect email address, a message will pop up, telling the user that the text they entered into the field is invalid.
+      - If all fields are entered as required and valid then upon submitting the form, the current page will reload.
+
+3. As a software development student, I'm looking for design ideas and inspiration for my own project, so that I can do well in my course.
+
+   - Upon entering the website, the student can easily locate the navigation menu in the top right. Clicking or tapping on any of the page links will take them to the relevant page they might want to look at.
+
+4. As a recruitment agent, I want to see a broader overview of Gary by seeing his full resume and I expect to be able to easily download a copy of his CV for my records, so that I can determine whether Gary can be shortlisted for any of the available positions I need to fill.
+
+   1. Upon entering the website, the user is greeted with 'personal info' and 'about me' sections providing contact information and reasons to hire me.
+   2. The user can easily locate the navigation menu in the top right. Clicking or tapping on the 'Resume' link will take them to the Resume page.
+   3. In the Resume page, the user can donwload a copy of my CV by clicking/tapping the link to open my CV in a pdf file in a new browser tab.
+   4. They can view my skill set in relation to coding and education, training and work history timelines.
+
 ### Further Testing
 
-### Known Bugs
+- Throughout the building prcoess of the website, I conducted regular testing through the use of Google Chrome DevTools (with Chrome being my default and primary browser used for this project).
+- Beginning from the mobile-first perspective, every element of each page was tested to ensure they appear and function as desired and expected. When enabling the DevTools Inspector and toggling the device toolbar I was able to select specific device screen screen sizes or an unlimited responsive option for testing purposes.
+- The website has been tested across multiple other popular web browsers including Mozilla Firefox, Microsoft Edge, Internet Explorer 11 and Apple Safari and tested on a variety of devices including iPhone 6S, iPhone X, iPad 2, laptop and desktop.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- I asked my partner to review my website at different developmental stages and the completed product across multiple device sizes for feedback and to point out any obvious bugs or issues with her user experience.
+- Whenever I encountered something not appearing or functioning as it should, I would first try to rectify the problem with the DevTools elements panel by applying a fix. If this fix was successful, it would be replicated in Gitpod. If the fix was unsuccessful, my attention would turn to online resource(s) or Slack, to help identify why the problem is occuring, if there are any underlying issues and work-arounds or asking for advice to tackle the problem.
+
+### Bugs Encountered
+
+Below are some bugs I have encountered during testing and fixed:
+
+Bug: Invisible text was showing instead of placeholder text in the message field of the contact form on the collaboration page.
+Fix: The textarea element has been restricted to occupy one line of code to remove any conflicting spaces.
+
+Bug: Too much empty space on both sides of container content and elements too small at larger screen widths.
+Fix: Added media queries for larger screen widths up to 4K resolution and replaced hero images with larger sizes to match and prevent blurring/stretching.
+
+Bug: Timelines were overlapping the container area at larger screen widths.
+Fix: Added left margin to history-items class divs.
+
+Bug: HTML files were not mappable to XML as described by the HTML validator because of extra hyphons within comments.
+Fix: Removed the extra hyphons in comments.
+
+<hr>
 
 ## Deployment
 
+My project was deployed directly from the master branch to GitHub Pages as the website host. Whenever new commits are made to the master branch the deployed site will update to the latest version. In order for the project to deploy successfully on GitHub Pages, the landing page has to remain as 'index.html'.
+
 ### GitHub Pages
+
+I deployed my project to GitHub Pages using the following steps...
+
+1. Log in to GitHub, locate Repositories then click on the repository [GRHUGHES-Portfolio](https://github.com/Gazroh87/GRHUGHES-Portfolio).
+2. Locate the "Settings" button at the end of the horizontal menu and click to go to the settings page.
+3. Scroll down the settings page until you find the "GitHub Pages" section.
+4. Under "Source", click on the dropdown menu, set as "None" by deafult and change it to "master branch" from the available list of options.
+5. The page will automatically reload, with a ribbon notification stating: "GitHub Pages source saved" indicating a successful deployment.
+6. Above "Source", click the link next to "Your site is published at [https://gazroh87.github.io/GRHUGHES-Portfolio/](https://gazroh87.github.io/GRHUGHES-Portfolio/)".
+
+### Making a Local Clone
+
+To run this repository locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/Gazroh87/GRHUGHES-Portfolio.git` into your terminal and hit 'Enter'. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal and hit 'Enter'.
+
+<hr>
 
 ## Credits
 
