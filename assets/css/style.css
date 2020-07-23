@@ -76,7 +76,7 @@ a i:hover {
   text-decoration: none !important;
 }
 
-/*---------- Navigation ----------*/
+/*---------- Navigation - Credit to Shawn Reisner for the fade-up animated nav link when hovered and credit to MD Bootstrap for the animated hamburger menu icon ----------*/
 
 .nav-link {
   font-family: "Michroma", sans-serif;

@@ -102,61 +102,33 @@ In future, I would like to expand the skill set section with newly aquired skill
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.5.0 Framework](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+1. [Bootstrap 4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Bootstrap was used behind the existing HTML and CSS as the core structuring method of the website, using a grid system of rows and columns. This produces responsive and mobile-first design.
 
-- The Bootstrap framework was used behind the existing HTML and CSS as the core structuring method of the website, using a grid system of rows and columns. This produces responsive and mobile-first design.
+2. [Hover.css 2.3.1](https://ianlunn.github.io/Hover/) - Hover.css was used on static icons throughout the website to add some animation to them while they are hovered over.
 
-2. [Hover.css 2.3.1](https://ianlunn.github.io/Hover/)
+3. [Google Fonts](https://fonts.google.com/) - Google Fonts were used to embed and link the 'Michroma' and 'Roboto' fonts into all html pages for use throughout the website.
 
-- Hover.css was used on static icons throughout the website to add some animation to them while they are hovered over.
+4. [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/) - Font Awesome was used to provide the icons within the footer of all pages and all other icons throughout the website for aesthetic and UX design purposes.
 
-3. [Google Fonts](https://fonts.google.com/)
+5. [jQuery 3.5.1](https://jquery.com/) - jQuery comes as part of the Boostrap framework and was used to provide responsive expandable and collapsable functionality to the navbar.
 
-- Google Fonts were used to embed and link the 'Michroma' and 'Roboto' fonts into all html pages for use throughout the website.
+6. [Git](https://git-scm.com/) / [Gitpod](https://www.gitpod.io/) - Git was used for version control by utilizing the Gitpod terminal to commit files to Git and Push them to GitHub.
 
-4. [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/)
+7. [GitHub](https://github.com/Gazroh87/GRHUGHES-Portfolio) - GitHub is used to store the projects code within a repository including all previous versions or commits of the project after being pushed from Gitpod and is used to host the deployed website for public viewing.
 
-- Font Awesome was used to provide the icons within the footer of all pages and all other icons throughout the website for aesthetic and UX design purposes.
+8. [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) - Adobe Illustrator was used to create my logo at the top of this file and placed within the Hero image of my homepage, resizing and editing of photos for the website.
 
-5. [jQuery 3.5.1](https://jquery.com/)
+9. [tiny png](https://tinypng.com/) - Tiny png was used to compress the images used throughtout the website to reduce data size, decreasing load times without sacrificing the integrity or quality of the original images.
 
-- jQuery comes as part of the Boostrap framework and was used to provide responsive expandable and collapsable functionality to the navbar.
+10. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - The Chrome DevTools debugging program was used throughout the building of the website to quickly see any changes made to the website code visualised in a live browser tab. I'm able to test the responsiveness of all elements and CSS visual changes.
 
-6. [Git](https://git-scm.com/) / [Gitpod](https://www.gitpod.io/)
+11. [Balsamiq Wireframes 4.0.47](https://balsamiq.com/) - I downloaded and used the Balsamiq Wireframes desktop application to create all my [wireframes](https://github.com/Gazroh87/GRHUGHES-Portfolio/tree/master/wireframes) during the design process.
 
-- Git was used for version control by utilizing the Gitpod terminal to commit files to Git and Push them to GitHub.
+12. [Shutterstock](https://www.shutterstock.com/home) - Shutterstock provides the stock hero imagery of my wesbite.
 
-7. [GitHub](https://github.com/Gazroh87/GRHUGHES-Portfolio)
+13. [Am I Responsive Design?](http://ami.responsivedesign.is/) - The web application was used to generate screencaps of my lading page at different viewports and position them to form a static demo presentation of my website's responsiveness as can be seen towards the top of this file.
 
-- GitHub is used to store the projects code within a repository including all previous versions or commits of the project after being pushed from Gitpod and is used to host the deployed website for public viewing.
-
-8. [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
-
-- Adobe Illustrator was used to create my logo at the top of this file and placed within the Hero image of my homepage, resizing and editing of photos for the website.
-
-9. [tiny png](https://tinypng.com/)
-
-- Tiny png was used to compress the images used throughtout the website to reduce data size, decreasing load times without sacrificing the integrity or quality of the original images.
-
-10. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-
-- The Chrome DevTools debugging program was used throughout the building of the website to quickly see any changes made to the website code visualised in a live browser tab. I'm able to test the responsiveness of all elements and CSS visual changes.
-
-11. [Balsamiq Wireframes 4.0.47](https://balsamiq.com/)
-
-- I downloaded and used the Balsamiq Wireframes desktop application to create all my [wireframes](https://github.com/Gazroh87/GRHUGHES-Portfolio/tree/master/wireframes) during the design process.
-
-12. [Shutterstock](https://www.shutterstock.com/home)
-
-- Shutterstock provides the stock hero imagery of my wesbite.
-
-13. [Am I Responsive Design?](http://ami.responsivedesign.is/)
-
-- The web application was used to generate screencaps of my lading page at different viewports and position them to form a static demo presentation of my website's responsiveness as can be seen towards the top of this file.
-
-14. [htmlcolorcodes.com built by Dixon & Moe](https://htmlcolorcodes.com/)
-
-- HTML color codes was used to choose my colour scheme and obtain the corresponding hex codes for each colour.
+14. [htmlcolorcodes.com built by Dixon & Moe](https://htmlcolorcodes.com/) - HTML color codes was used to choose my colour scheme and obtain the corresponding hex codes for each colour.
 
 <hr>
 
@@ -211,17 +183,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 Below are some bugs I have encountered during testing and fixed:
 
-Bug: Invisible text was showing instead of placeholder text in the message field of the contact form on the collaboration page.
-Fix: The textarea element has been restricted to occupy one line of code to remove any conflicting spaces.
+- Bug: Invisible text was showing instead of placeholder text in the message field of the contact form on the collaboration page.
+- Fix: The textarea element has been restricted to occupy one line of code to remove any conflicting spaces, thanks to Aquarelle at [Stack Overflow](https://stackoverflow.com/questions/10186913/html5-textarea-placeholder-not-appearing).
 
-Bug: Too much empty space on both sides of container content and elements too small at larger screen widths.
-Fix: Added media queries for larger screen widths up to 4K resolution and replaced hero images with larger sizes to match and prevent blurring/stretching.
+- Bug: Too much empty space on both sides of container content and elements too small at larger screen widths.
+- Fix: Added media queries for larger screen widths up to 4K resolution and replaced hero images with larger sizes to match and prevent blurring/stretching.
 
-Bug: Timelines were overlapping the container area at larger screen widths.
-Fix: Added left margin to history-items class divs.
+- Bug: Timelines were overlapping the container area at larger screen widths.
+- Fix: Added left margin to history-items class divs.
 
-Bug: HTML files were not mappable to XML as described by the HTML validator because of extra hyphons within comments.
-Fix: Removed the extra hyphons in comments.
+- Bug: HTML files were not mappable to XML as described by the HTML validator because of extra hyphons within comments.
+- Fix: Removed the extra hyphons in comments, thanks to [Geert Bormans](https://www.experts-exchange.com/questions/28661509/The-document-is-not-mappable-to-XML-1-0-due-to-two-consecutive-hyphens-in-a-comment.html).
 
 <hr>
 
@@ -250,8 +222,50 @@ To run this repository locally, you can clone this repository directly into the 
 
 ### Code
 
+- The Personal Info section idea and implementation remains largely the same as used in Code Institute's UCD Rosie Resume Mini Project.
+- [Bootstrap 4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap was used throughout the project mainly to make the site responsive using Bootstrap's Grid System.
+
 ### Content
+
+- All of the text content of my website was written by me.
+- The Michroma and Roboto fonts were obtained from [Google Fonts](https://fonts.google.com/).
 
 ### Media
 
-### Acknowledgements
+- The hero images used in my website were obtained from [Shutterstock](https://www.shutterstock.com/home) and edited in [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html), with the exception of the photo of myself in the 'Personal Info' section of the 'Resume' page.
+- The icons used in my website were obtained from [Font Awesome](https://fontawesome.bootstrapcheatsheets.com/) and styled by me.
+
+### Special thanks / Acknowledgements
+
+- Thank you to fellow student [Orla Madden](https://github.com/orlamadden) on Slack for her UCFD video calls on getting started on the first milestone project and wireframing.
+
+- Credit to Tutorialspoint for their simple CSS positioning explanation, obtained from [here](https://www.tutorialspoint.com/css/css_positioning.htm).
+
+- Credit to Skelly aka Zim at Stack Overflow for help with the following:
+    - Changing Navbar color in Bootstrap, found [here](https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap/18530995#18530995).
+    - Bootstrap 4 Navbar Center Links Examples, found [here](https://www.codeply.com/go/kTGlK9Axdk).
+    - Producing square tiles (my cards) with same horizontal/vertical gaps, found [here at Stack Overflow](https://stackoverflow.com/questions/49692456/bootstrap-grid-square-tiles-with-same-horizontal-vertical-gap) and [codeply](https://www.codeply.com/go/FC4u3RVm8h).
+
+- Credit to Shawn Reisner for the fade-up animated nav link when hovered, found [here](https://codepen.io/sreisner/pen/yOOOjx).
+
+- Credit to MD Bootstrap for the animated hamburger menu icon found under 'Hamburger menu icon animations' over at [mdbootstrap.com](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/).
+
+- Credit to sepuckett86 at Stack Overflow for help with equal height/width Bootstrap card images, found [here](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width).
+
+- Credit to JoelDoryoku & Zim/Skelly for help with centering images within Bootstrap cards, found [here at Stack Overflow](https://stackoverflow.com/questions/52098135/centering-an-image-within-a-bootstrap-card) and [codeply](https://www.codeply.com/go/Fb0Zh3A1E9).
+
+- Credit to [Ian Lunn](https://github.com/IanLunn/Hover) for [Hover.css](https://ianlunn.github.io/Hover/).
+
+- Credit to Jacob Lett and w3schools.com for help with responsive text found [here](https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/) and [here](https://www.w3schools.com/howto/howto_css_responsive_text.asp).
+
+- For help in the structuring and wording of my README I credit Code Insitute, [Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) and [auxfuse](https://github.com/auxfuse/Milestone1).
+
+- Thank you to my mentor, [Ashish Srivastava](https://github.com/techieashish), for his continuous advice, helpful feedback and his recommendation in reading 'CSS3: The Missing Manual by David Sawyer McFarland'. Sharing his industry experience and his ideas in what makes a good professional looking and functioning website with me, gave me great confidence in both himself as a mentor and my ability to produce a quality 1st milestone project.
+
+- And just a big thank you to everyone involved with Code Institute, the mentors and fellow students on Slack who have helped to make this project possible.
+
+<hr>
+
+## Disclaimer:
+
+This project was created for educational use.
