@@ -258,6 +258,8 @@ To run this repository locally, you can clone this repository directly into the 
 
 - Credit to Jacob Lett and w3schools.com for help with responsive text found [here](https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/) and [here](https://www.w3schools.com/howto/howto_css_responsive_text.asp).
 
+- Credit to [mmtuts on YouTube](https://www.youtube.com/watch?v=kEf1xSwX5D8) for help in implementing a favicon to all website pages.
+
 - For help in the structuring and wording of my README I credit Code Insitute, [Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) and [auxfuse](https://github.com/auxfuse/Milestone1).
 
 - Thank you to my mentor, [Ashish Srivastava](https://github.com/techieashish), for his continuous advice, helpful feedback and his recommendation in reading 'CSS3: The Missing Manual by David Sawyer McFarland'. Sharing his industry experience and his ideas in what makes a good professional looking and functioning website with me, gave me great confidence in both himself as a mentor and my ability to produce a quality 1st milestone project.
