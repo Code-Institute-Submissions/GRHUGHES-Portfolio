@@ -35,7 +35,7 @@
 					<div class="col">
 						<nav class="navbar navbar-expand-md justify-content-center">
 							<button
-                  class="navbar-toggler second-button clearfix"
+                  class="navbar-toggler hamburger-button clearfix"
                   type="button"
                   data-toggle="collapse"
                   data-target="#navbarNavDropdown"
@@ -310,12 +310,11 @@
 	</script>
 	<script>
 		$(document).ready(function () {
-        $(".second-button").on("click", function () {
+        $(".hamburger-button").on("click", function () {
           $(".navbar-toggler-icon").toggleClass("open");
         });
       });
-      //credit to https://codepen.io/imprfcto/pen/WNNpBLp for helping me close nav item when clicked on
-      // close hamburger menu after click a
+      // credit to merangely asensi https://codepen.io/imprfcto/pen/WNNpBLp for help to close nav item when clicked on and close hamburger menu after click //
       $(".navbar-nav li a").on("click", function () {
         $(".navbar-toggler-icon").click();
       });

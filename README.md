@@ -224,6 +224,8 @@ To run this repository locally, you can clone this repository directly into the 
 
 - The Personal Info section idea and implementation remains largely the same as used in Code Institute's UCD Rosie Resume Mini Project.
 - [Bootstrap 4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap was used throughout the project mainly to make the site responsive using Bootstrap's Grid System.
+- Credit to MD Bootstrap for the animated hamburger menu icon found under 'Hamburger menu icon animations' over at [mdbootstrap.com](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/).
+- Credit to Merangely Asensi for the scipt to close the hamburger menu after making after clicking/tapping the button or making a selection, found [here](https://codepen.io/imprfcto/pen/WNNpBLp).
 
 ### Content
 
@@ -247,8 +249,6 @@ To run this repository locally, you can clone this repository directly into the 
     - Producing square tiles (my cards) with same horizontal/vertical gaps, found [here at Stack Overflow](https://stackoverflow.com/questions/49692456/bootstrap-grid-square-tiles-with-same-horizontal-vertical-gap) and [codeply](https://www.codeply.com/go/FC4u3RVm8h).
 
 - Credit to Shawn Reisner for the fade-up animated nav link when hovered, found [here](https://codepen.io/sreisner/pen/yOOOjx).
-
-- Credit to MD Bootstrap for the animated hamburger menu icon found under 'Hamburger menu icon animations' over at [mdbootstrap.com](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/).
 
 - Credit to sepuckett86 at Stack Overflow for help with equal height/width Bootstrap card images, found [here](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width).
 

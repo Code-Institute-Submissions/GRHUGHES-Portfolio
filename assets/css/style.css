@@ -220,7 +220,8 @@ ul.nav a:hover {
 
 .my-photo {
   border: 1px solid #000;
-  margin-bottom: 16px;
+  margin: auto;
+  display: block;
 }
 
 .personal-info-item {
@@ -235,6 +236,7 @@ ul.nav a:hover {
 }
 
 .personal-info-item .key {
+  margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 2px;
   vertical-align: top;
